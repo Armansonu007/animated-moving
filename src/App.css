@@ -1,0 +1,132 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.road {
+  position: relative;
+  width: 500px;
+  height: 10px;
+  background-color: #888;
+}
+
+.boy {
+  position: absolute;
+  top: -200px;
+  width: 80px;
+  height: 200px;
+}
+
+.boy-hair {
+  position: absolute;
+  top: -80px;
+  width: 80px;
+  height: 80px;
+  background-color: #000;
+  border-radius: 50% 50% 0 0;
+}
+
+.boy-body {
+  position: relative;
+  width: 80px;
+  height: 120px;
+}
+
+.boy-head {
+  position: absolute;
+  top: -60px;
+  left: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f8f8ff;
+}
+
+.boy-eye {
+  position: absolute;
+  top: 20px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.boy-eye-left {
+  left: 10px;
+}
+
+.boy-eye-right {
+  right: 10px;
+}
+
+.boy-nose {
+  position: absolute;
+  top: 35px;
+  left: 25px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ff4500;
+}
+
+.boy-arm {
+  position: absolute;
+  top: 45px;
+  width: 20px;
+  height: 80px;
+  background-color: #ffcccc;
+  border-radius: 10px;
+}
+
+.boy-arm-left {
+  left: -10px;
+}
+
+.boy-arm-right {
+  right: -10px;
+}
+
+.boy-leg {
+  position: absolute;
+  bottom: 0;
+  width: 20px;
+  height: 100px;
+  background-color: #ffcccc;
+  border-radius: 10px;
+}
+
+.boy-leg-left {
+  left: 10px;
+}
+
+.boy-leg-right {
+  right: 10px;
+}
+
+.boy-enter {
+  opacity: 0;
+}
+
+.boy-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.boy-exit {
+  opacity: 1;
+}
+
+.boy-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.boy-dragging {
+  cursor: grab;
+}
+
+.boy-dragging:active {
+  cursor: grabbing;
+}
